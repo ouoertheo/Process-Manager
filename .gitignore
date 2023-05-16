@@ -2,3 +2,4 @@ venv
 run.ps1
 processes.json
 __pycache__
+.vscode
