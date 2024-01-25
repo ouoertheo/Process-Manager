@@ -3,3 +3,6 @@ run.ps1
 processes.json
 __pycache__
 .vscode
+tmp
+*.log
+node_modules

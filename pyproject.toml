@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "process-manager"
+version = "0.1.0"
+description = "A webUI to manage running applications on a localhost. Generally useful for home lab type stuff."
+authors = ["ouoertheo <jamin@tomeofjamin.net>"]
+readme = "README.md"
+packages = [{include = "process_manager"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+loguru = "^0.7.2"
+uvicorn = "^0.25.0"
+fastapi = "^0.108.0"
+psutil = "^5.9.7"
+jinja2 = "^3.1.2"
+pydantic = "^2.5.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,16 @@
+{
+  "definitions": {
+    "app1": {
+      "path": "c:\\app1",
+      "command": [
+        "app1.exe"
+      ]
+    },
+    "app2": {
+      "path": "c:\\app2",
+      "command": [
+        "app2.exe"
+      ]
+    }
+  }
+}
