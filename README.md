@@ -1,6 +1,9 @@
-# App Controller
+# Process Manager
 A very basic web front-end to start and stop apps. Handy to start common apps easily from one spot.
 Allows to start, stop, and view a logs.
+
+# WARNING: This is an unsafe webapp.
+It allows running pretty much anything at the click of a button. Do not run this in an unsecure or untrusted network.
 
 # Install
 1. Install Python
